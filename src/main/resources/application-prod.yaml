@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+fox:
+  title: 这是 prod 配置

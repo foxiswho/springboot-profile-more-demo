@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  config:
+    activate:
+      on-profile: test
+
+fox:
+  title: 这是 test 配置
+
+
+

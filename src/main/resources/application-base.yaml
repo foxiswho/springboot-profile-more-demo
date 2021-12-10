@@ -1,0 +1,6 @@
+
+fox:
+  config:
+    appId: 111111111
+    appKey: 123456789
+    remark: 这是 base-prod 配置

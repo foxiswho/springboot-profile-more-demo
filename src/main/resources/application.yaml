@@ -1,0 +1,19 @@
+server:
+  port: 8090
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+spring:
+  profiles:
+    active: dev
+    group:
+      dev: "base"
+      test: "base"
+      prod: "base-prod"
+
+
+fox:
+  title: 这是默认配置
